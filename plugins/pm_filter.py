@@ -824,10 +824,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("➕️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗨𝗥 𝗚𝗥𝗢𝗨𝗣𝗦➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/Astra_botz")
+            InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛🔍", switch_inline_query_current_chat='') 
             ],[
-            InlineKeyboardButton("𝗙𝗢𝗥 𝗠𝗢𝗩𝗜𝗘𝗦", url="https://t.me/Movies_Channel_Malayalam")
+            InlineKeyboardButton("𝗙𝗢𝗥 𝗠𝗢𝗩𝗜𝗘𝗦", url="https://t.me/moviematrix2")
             ],[      
             InlineKeyboardButton("𝗛𝗘𝗟𝗣", callback_data="help"),
             InlineKeyboardButton("𝗔𝗕𝗢𝗨𝗧", callback_data="about")
@@ -922,7 +921,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('SOURCE CODE', url='https://github.com/Hackermanker/Autofilter-bot')
+            InlineKeyboardButton('SOURCE CODE', url='https://t.me/RapterOfficial')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
