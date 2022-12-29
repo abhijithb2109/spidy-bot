@@ -825,11 +825,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗨𝗥 𝗚𝗥𝗢𝗨𝗣𝗦➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("𝗦𝗘𝗔𝗥𝗖𝗛🔍", switch_inline_query_current_chat=''), 
-            #InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url="https://t.me/moviematrix2"),
-            ],
+            
 [      
-            InlineKeyboardButton("𝗛𝗘𝗟𝗣", callback_data="help"),
-            InlineKeyboardButton("𝗔𝗕𝗢𝗨𝗧", callback_data="about")
+            InlineKeyboardButton("𝗛𝗘𝗟𝗣", callback_data="help")],
+            [
+              InlineKeyboardButton("𝗔𝗕𝗢𝗨𝗧", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -844,7 +844,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="𝖡 & 𝖶", callback_data="b|w"),
             ],[
             InlineKeyboardButton(text="𝖢𝗂𝗋𝖼𝗅𝖾", callback_data="circle"),
-            InlineKeyboardButton(text="𝖡𝗅𝗎𝗋", callback_data="blur"),
+            InlineKeyboar oodButton(text="𝖡𝗅𝗎𝗋", callback_data="blur"),
             InlineKeyboardButton(text="𝖡𝗈𝗋𝖽𝖾𝗋", callback_data="border"),
             ],[
             InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="stick"),
